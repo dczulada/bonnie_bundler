@@ -163,6 +163,7 @@ module Measures
           if @config[measure.hqmf_set_id]
             measure.category = @config[measure.hqmf_set_id]['category']
             measure.measure_id = @config[measure.hqmf_set_id]['nqf_id']
+            measure.population_criteria.delete_if {|key, value| !value['preconditions']}
           end
           measure.populations.each_with_index do |population, population_index|
             sub_id = sub_ids[population_index] if measure.populations.length > 1
