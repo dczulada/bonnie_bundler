@@ -22,21 +22,21 @@ module Measures
                   "check_crosswalk" => false,
                   "use_cms" => false,
                   "export_filter" => ["measures", "sources","records", "valuesets", "results"]}
-      BAD_MEASURE_IDS = ['36f76ed8-36f1-4439-a473-966e8d2b87b3',
-        '2a184a5f-46eb-4c00-a221-933d5b35ad88',
-        '43b89365-3cb9-4fad-bab3-5cda934807cc',
-        '0e8C682C-C709-45A5-9CFE-6785238AEA78',
-        '0dd7df4c-6476-47f0-8364-987d9fdbe131',
-        '051fcdba-62d0-42dc-8702-fce27d114a73',
-        '28ed6419-03a7-40e4-ae3a-9bfffef9b548',
-        '6036fb7a-9efc-4538-832d-28e106f40560',
-        'ffd001c6-d309-4869-8e43-0195fe2454d4',
-        'ae2b8c5e-874d-412b-a5dc-235ed3ca3d8e',
-        '093d3d98-ded5-4130-bf02-9badc6b79fa5',
-        '15631cf4-0214-4062-bb1c-be7dee147c12',
-        '2859d097-691a-46ac-a490-16fa0c2cd269',
-        '43141df9-7f4d-454b-9303-065239f2b034',
-        '86061DE7-0EE3-42C7-B6D1-6CE319D23ED6']
+      BAD_MEASURE_IDS = {'36f76ed8-36f1-4439-a473-966e8d2b87b3' => 'DENEXCEP',
+        '2a184a5f-46eb-4c00-a221-933d5b35ad88' => 'DENEX',
+        '43b89365-3cb9-4fad-bab3-5cda934807cc' => 'DENEXCEP',
+        '0e8C682C-C709-45A5-9CFE-6785238AEA78' => 'DENEXCEP',
+        '0dd7df4c-6476-47f0-8364-987d9fdbe131' => 'DENEXCEP',
+        '051fcdba-62d0-42dc-8702-fce27d114a73' => 'DENEXCEP',
+        '28ed6419-03a7-40e4-ae3a-9bfffef9b548' => 'DENEXCEP',
+        '6036fb7a-9efc-4538-832d-28e106f40560' => 'DENEXCEP',
+        'ffd001c6-d309-4869-8e43-0195fe2454d4' => 'DENEX',
+        'ae2b8c5e-874d-412b-a5dc-235ed3ca3d8e' => 'DENEXCEP',
+        '093d3d98-ded5-4130-bf02-9badc6b79fa5' => 'DENEXCEP',
+        '15631cf4-0214-4062-bb1c-be7dee147c12' => 'DENEXCEP',
+        '2859d097-691a-46ac-a490-16fa0c2cd269' => 'DENEXCEP',
+        '43141df9-7f4d-454b-9303-065239f2b034' => 'DENEXCEP',
+        '86061DE7-0EE3-42C7-B6D1-6CE319D23ED6' => 'DENEX'}
       
       DEFAULTS.keys.each do |k|
         attr_accessor k.to_sym
@@ -178,7 +178,13 @@ module Measures
           if @config[measure.hqmf_set_id]
             measure.category = @config[measure.hqmf_set_id]['category']
             measure.measure_id = @config[measure.hqmf_set_id]['nqf_id']
-            measure.population_criteria.delete_if {|key, value| BAD_MEASURE_IDS.include? value['hqmf_id']}
+            measure.population_criteria.each do |key, value|
+              if BAD_MEASURE_IDS.has_key? value['hqmf_id']
+                delete_pop = BAD_MEASURE_IDS[value['hqmf_id']]
+                measure.population_criteria.delete(delete_pop)
+                measure.populations.first.delete(delete_pop)
+              end
+            end
           end
           measure.populations.each_with_index do |population, population_index|
             sub_id = sub_ids[population_index] if measure.populations.length > 1
