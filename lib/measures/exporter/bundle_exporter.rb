@@ -81,33 +81,34 @@ module Measures
                           '2859d097-691a-46ac-a490-16fa0c2cd269' => 'DENEXCEP',
                           'b6d2eca0-b127-4e01-9bd2-40c30568df13' => 'DENEXCEP',
                           '43141df9-7f4d-454b-9303-065239f2b034' => 'DENEXCEP',
-                          'abb0dcab-3343-4a0f-8313-daa247db93ae' => 'DENEXCEP',
-                          '28371d41-4793-4048-8a62-978a92db2d92' => 'DENEXCEP',
-                          'a68d436c-6cfd-4816-8ca5-cd29cd2ac26e' => 'DENEXCEP',
-                          'a6045b0e-ad25-478c-8a3a-480a6fc3abdb' => 'DENEXCEP',
-                          'a752f79d-62bc-4f1f-85aa-a09e7c9bcb3c' => 'DENEXCEP',
-                          'e38b9db8-d04a-4733-aedb-f726b5a966ea' => 'DENEXCEP',
-                          '45ee0e6c-c473-4d7f-9c94-9b2a44a196a2' => 'DENEXCEP',
-                          'ebdcd25c-8315-43d2-a0c4-bfea4def31f2' => 'DENEXCEP',
-                          '7ec4b396-178a-47c8-a95b-0fb7a4966a84' => 'DENEXCEP',
-                          'b6acb7ba-f362-442c-882f-a17e20a8fbd9' => 'DENEXCEP',
-                          '767f96a9-b6bf-455a-b702-edffba05b2ee' => 'DENEXCEP',
-                          '208b4952-0bb9-4f0f-835a-36d602431884' => 'DENEXCEP',
-                          '82ffaff4-6c4a-46dd-bc9a-e40f3294f77b' => 'DENEXCEP',
-                          '14a1bfcf-8e86-450f-aa3b-e1401223dddd' => 'DENEXCEP',
-                          '09d969d7-75ad-41e2-8fc0-5e382c80c510' => 'DENEXCEP',
-                          'b55300e6-3b67-4b75-aeac-5aa0c7519859' => 'DENEXCEP',
-                          'c43402ec-a3b7-4512-bed0-fae657b74812' => 'DENEXCEP',
-                          'ef5371c1-bea5-4b6c-83a9-6a5ee522878c' => 'DENEXCEP',
-                          '3fc19538-0a3e-4455-8191-8d4fcfb1cc99' => 'DENEXCEP',
-                          '401cedf5-a65d-4837-a3c4-776af1dea3d5' => 'DENEXCEP',
-                          '7379b91a-ad8a-4645-822a-60d1c6ba0813' => 'DENEXCEP',
-                          '1cc3f818-928d-4c32-8a5b-2c77bc39577e' => 'DENEXCEP',
-                          'ebf7e9d5-09a4-4922-acaa-8f38727a44c1' => 'DENEXCEP',
-                          '7ab2f4e4-2758-41d4-aa16-2db3007dafa5' => 'DENEXCEP',
-                          '9d6c2d57-4f76-4764-93ff-fdd31455b8a2' => 'DENEXCEP',
-                          '0d24c611-cdc8-4705-8dbf-3cd2fa5687a2' => 'DENEXCEP',
-                          '445eb90f-fb8a-4cef-8c0d-91b2ec5ed8a8' => 'DENEXCEP',
+                          'abb0dcab-3343-4a0f-8313-daa247db93ae' => 'DENEXCEP_1',
+                          '28371d41-4793-4048-8a62-978a92db2d92' => 'DENEXCEP_1',
+                          'a68d436c-6cfd-4816-8ca5-cd29cd2ac26e' => 'DENEXCEP_1',
+                          'a6045b0e-ad25-478c-8a3a-480a6fc3abdb' => 'DENEXCEP_1',
+                          'a752f79d-62bc-4f1f-85aa-a09e7c9bcb3c' => 'DENEXCEP_1',
+                          'e38b9db8-d04a-4733-aedb-f726b5a966ea' => 'DENEXCEP_1',
+                          '45ee0e6c-c473-4d7f-9c94-9b2a44a196a2' => 'DENEXCEP_1',
+                          'ebdcd25c-8315-43d2-a0c4-bfea4def31f2' => 'DENEXCEP_1',
+                          '7ec4b396-178a-47c8-a95b-0fb7a4966a84' => 'DENEXCEP_1',
+                          'b6acb7ba-f362-442c-882f-a17e20a8fbd9' => 'DENEXCEP_1',
+                          '767f96a9-b6bf-455a-b702-edffba05b2ee' => 'DENEXCEP_1',
+                          '208b4952-0bb9-4f0f-835a-36d602431884' => 'DENEXCEP_1',
+                          '82ffaff4-6c4a-46dd-bc9a-e40f3294f77b' => 'DENEXCEP_2',
+                          '14a1bfcf-8e86-450f-aa3b-e1401223dddd' => 'DENEXCEP_2',
+                          '09d969d7-75ad-41e2-8fc0-5e382c80c510' => 'DENEXCEP_2',
+                          'b55300e6-3b67-4b75-aeac-5aa0c7519859' => 'DENEXCEP_2',
+                          'c43402ec-a3b7-4512-bed0-fae657b74812' => 'DENEXCEP_2',
+                          '9447654c-da7a-4644-87a4-a72683ac9bf8' => 'DENEXCEP_2',
+                          'ef5371c1-bea5-4b6c-83a9-6a5ee522878c' => 'DENEXCEP_3',
+                          '3fc19538-0a3e-4455-8191-8d4fcfb1cc99' => 'DENEXCEP_3',
+                          '401cedf5-a65d-4837-a3c4-776af1dea3d5' => 'DENEXCEP_4',
+                          '7379b91a-ad8a-4645-822a-60d1c6ba0813' => 'DENEXCEP_4',
+                          '1cc3f818-928d-4c32-8a5b-2c77bc39577e' => 'DENEXCEP_5',
+                          'ebf7e9d5-09a4-4922-acaa-8f38727a44c1' => 'DENEXCEP_5',
+                          '7ab2f4e4-2758-41d4-aa16-2db3007dafa5' => 'DENEXCEP_6',
+                          '9d6c2d57-4f76-4764-93ff-fdd31455b8a2' => 'DENEXCEP_6',
+                          '0d24c611-cdc8-4705-8dbf-3cd2fa5687a2' => 'DENEXCEP_7',
+                          '445eb90f-fb8a-4cef-8c0d-91b2ec5ed8a8' => 'DENEXCEP_7',
                           '2a184a5f-46eb-4c00-a221-933d5b35ad88' => 'DENEX',
                           '545394c2-6763-42a4-b0e7-9de6faecaa88' => 'DENEX',
                           'ee57c5e9-3cfb-4664-ab4c-ec251578f715' => 'DENEX',
@@ -147,11 +148,11 @@ module Measures
                           '3c74aa4a-6b2b-4cd7-9364-79f0dde7e1ce' => 'DENEX',
                           '1ac71239-c679-427e-8500-6ffb73403726' => 'DENEX',
                           '31e1e47f-21f0-412d-a7b0-ef352ac7c838' => 'DENEX',
-                          '1a10cf45-8ad3-47ea-a532-b3b0c5ad4b02' => 'DENEX',
-                          'a69f8d61-80d8-41e8-8462-5654fffb90b8' => 'DENEX',
-                          'dd7b74a5-a5fe-48f1-a23d-826505f96e7b' => 'DENEX',
-                          '8b83ab0d-b1bc-4a62-bf60-c0365bb030f2' => 'DENEX',
-                          'bcbe1454-1f1e-4d99-bf39-91630a9ad7dc' => 'DENEX'}
+                          '1a10cf45-8ad3-47ea-a532-b3b0c5ad4b02' => 'DENEX_1',
+                          'a69f8d61-80d8-41e8-8462-5654fffb90b8' => 'DENEX_1',
+                          'dd7b74a5-a5fe-48f1-a23d-826505f96e7b' => 'DENEX_1',
+                          '8b83ab0d-b1bc-4a62-bf60-c0365bb030f2' => 'DENEX_1',
+                          'bcbe1454-1f1e-4d99-bf39-91630a9ad7dc' => 'DENEX_2'}
       
       DEFAULTS.keys.each do |k|
         attr_accessor k.to_sym
@@ -237,6 +238,7 @@ module Measures
         BonnieBundler.logger.info("Exporting patients")
         records.each do |patient|
 
+          patient.insurance_providers = [create_default_insurance_provider] if patient.insurance_providers.empty?
           safe_first_name = patient.first.gsub("'", "")
           safe_last_name = patient.last.gsub("'", "")
           filename =  "#{safe_first_name}_#{safe_last_name}"
@@ -255,6 +257,21 @@ module Measures
           path = File.join(records_path, patient_type.to_s)
           export_file File.join(path, "json", "#{filename}.json"), json
         end
+      end
+      def create_default_insurance_provider
+        ip = InsuranceProvider.new
+        ip.codes = {}
+        ip.codes['SOP'] = []
+        ip.codes['SOP'] << '349'
+        ip.name = 'Other'
+        ip.type = 'OT'
+        ip.payer = Organization.new(name: 'Other')
+        ip.financial_responsibility_type = { 'code' => 'SELF', 'codeSystem' => 'HL7 Relationship Code' }
+        ip
+      end
+
+      def self.randomize_payer(insurance_provider)
+        
       end
 
       def export_results
@@ -297,7 +314,9 @@ module Measures
               if BAD_MEASURE_IDS.has_key? value['hqmf_id']
                 delete_pop = BAD_MEASURE_IDS[value['hqmf_id']]
                 measure.population_criteria.delete(delete_pop)
-                measure.populations.first.delete(delete_pop)
+                measure.populations.each do |measure_population|
+                  measure_population.delete_if {|key, value| value == delete_pop } 
+                end
               end
             end
           end
